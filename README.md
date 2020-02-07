@@ -1,2 +1,3 @@
-# azure-pipeline-chaining
-Example of how to perform Azure Pipeline chaining.
+# Azure Pipelines Chaining
+
+Example of how you can chain Azure Pipelines to ship features.
