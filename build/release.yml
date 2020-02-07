@@ -11,11 +11,11 @@ pool:
   vmImage: 'ubuntu-latest'
 resources:
   pipelines:
-  - pipeline: 'Release Build'
-    source: 'Release Build'
+  - pipeline: 'Azure Pipeline Chaining - Release Build'
+    source: 'Azure Pipeline Chaining - Release Build'
     trigger:
      enabled: true
 
 steps:
-- download: Release Build
+- download: 'Azure Pipeline Chaining - Release Build'
   artifact: 'drop'
